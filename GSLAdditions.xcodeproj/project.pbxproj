@@ -9,6 +9,8 @@
 /* Begin PBXBuildFile section */
 		870139711A9C8C640018EDD2 /* NSTimerGSLAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = 870139701A9C8C640018EDD2 /* NSTimerGSLAdditions.m */; };
 		D778463E1AA19E9300D4CD56 /* NSValueGSLAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = D778463D1AA19E9300D4CD56 /* NSValueGSLAdditions.m */; };
+		D78274281E2A8DC300464FE2 /* NSDictionaryGSLAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = D78274271E2A8DC300464FE2 /* NSDictionaryGSLAdditions.m */; };
+		D782742A1E2A932000464FE2 /* NSDictionaryGSLAdditionsTests.m in Sources */ = {isa = PBXBuildFile; fileRef = D78274291E2A932000464FE2 /* NSDictionaryGSLAdditionsTests.m */; };
 		D7A298981A8B363100109560 /* NSStringGSLAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = D7A298971A8B363100109560 /* NSStringGSLAdditions.m */; };
 		D7A4817A1A806A8D00340363 /* UIApplicationGSLAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = D7A481791A806A8D00340363 /* UIApplicationGSLAdditions.m */; };
 		D7A4817D1A806BB700340363 /* UITableViewCellGSLAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = D7A4817C1A806BB700340363 /* UITableViewCellGSLAdditions.m */; };
@@ -52,6 +54,9 @@
 		D778463C1AA19E9300D4CD56 /* NSValueGSLAdditions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NSValueGSLAdditions.h; sourceTree = "<group>"; };
 		D778463D1AA19E9300D4CD56 /* NSValueGSLAdditions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NSValueGSLAdditions.m; sourceTree = "<group>"; };
 		D778463F1AA1A0A400D4CD56 /* NSValueGSLAdditionsTests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NSValueGSLAdditionsTests.m; sourceTree = "<group>"; };
+		D78274261E2A8DC300464FE2 /* NSDictionaryGSLAdditions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NSDictionaryGSLAdditions.h; sourceTree = "<group>"; };
+		D78274271E2A8DC300464FE2 /* NSDictionaryGSLAdditions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NSDictionaryGSLAdditions.m; sourceTree = "<group>"; };
+		D78274291E2A932000464FE2 /* NSDictionaryGSLAdditionsTests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NSDictionaryGSLAdditionsTests.m; sourceTree = "<group>"; };
 		D7A298961A8B363100109560 /* NSStringGSLAdditions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NSStringGSLAdditions.h; sourceTree = "<group>"; };
 		D7A298971A8B363100109560 /* NSStringGSLAdditions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NSStringGSLAdditions.m; sourceTree = "<group>"; };
 		D7A298991A8B366100109560 /* FoundationGSLAdditions.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FoundationGSLAdditions.h; sourceTree = "<group>"; };
@@ -94,6 +99,7 @@
 			isa = PBXGroup;
 			children = (
 				D7B76B191AAB15C4007283D7 /* NSDataGSLAdditionsTests.m */,
+				D78274291E2A932000464FE2 /* NSDictionaryGSLAdditionsTests.m */,
 				D7A2989D1A8B409E00109560 /* NSStringGSLAdditionsTests.m */,
 				870139721A9C8E530018EDD2 /* NSTimerGSLAdditionsTests.m */,
 				D778463F1AA1A0A400D4CD56 /* NSValueGSLAdditionsTests.m */,
@@ -153,6 +159,8 @@
 				D7A298991A8B366100109560 /* FoundationGSLAdditions.h */,
 				D7B76B131AAB0AB4007283D7 /* NSDataGSLAdditions.h */,
 				D7B76B141AAB0AB4007283D7 /* NSDataGSLAdditions.m */,
+				D78274261E2A8DC300464FE2 /* NSDictionaryGSLAdditions.h */,
+				D78274271E2A8DC300464FE2 /* NSDictionaryGSLAdditions.m */,
 				D7A298961A8B363100109560 /* NSStringGSLAdditions.h */,
 				D7A298971A8B363100109560 /* NSStringGSLAdditions.m */,
 				8701396F1A9C8C640018EDD2 /* NSTimerGSLAdditions.h */,
@@ -264,6 +272,7 @@
 			files = (
 				D7A481801A80786100340363 /* GSLAdditions.m in Sources */,
 				D7B76B151AAB0AB4007283D7 /* NSDataGSLAdditions.m in Sources */,
+				D78274281E2A8DC300464FE2 /* NSDictionaryGSLAdditions.m in Sources */,
 				D7A298981A8B363100109560 /* NSStringGSLAdditions.m in Sources */,
 				870139711A9C8C640018EDD2 /* NSTimerGSLAdditions.m in Sources */,
 				D778463E1AA19E9300D4CD56 /* NSValueGSLAdditions.m in Sources */,
@@ -276,9 +285,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D7B76B1A1AAB15C4007283D7 /* NSDataGSLAdditionsTests.m in Sources */,
+				D782742A1E2A932000464FE2 /* NSDictionaryGSLAdditionsTests.m in Sources */,
 				D7B76B161AAB0B1D007283D7 /* NSStringGSLAdditionsTests.m in Sources */,
 				D7B76B171AAB0B1D007283D7 /* NSTimerGSLAdditionsTests.m in Sources */,
-				D7B76B1A1AAB15C4007283D7 /* NSDataGSLAdditionsTests.m in Sources */,
 				D7B76B181AAB0B1D007283D7 /* NSValueGSLAdditionsTests.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
