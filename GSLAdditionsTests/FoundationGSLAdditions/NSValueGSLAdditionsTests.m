@@ -3,7 +3,6 @@
 //  GSLAdditions
 //
 
-@import Foundation;
 @import XCTest;
 
 #import "NSValueGSLAdditions.h"
@@ -31,6 +30,17 @@
     {
         NSNumber *number = @3.1415926535; // double
         XCTAssertEqual(sizeof(CGFloat), sizeof(number.gsl_CGFloatValue));
+    }
+}
+
+- (void)test_gsl_initWithCGFloat {
+    {
+        CGFloat value = 3.14f;
+        XCTAssertEqualObjects(@(value), [[NSNumber alloc] gsl_initWithCGFloat:value]);
+    }
+    {
+        CGFloat value = 3.1415926535;
+        XCTAssertEqualObjects(@(value), [[NSNumber alloc] gsl_initWithCGFloat:value]);
     }
 }
 
