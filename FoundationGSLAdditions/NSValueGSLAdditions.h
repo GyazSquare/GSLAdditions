@@ -10,7 +10,7 @@ NS_ASSUME_NONNULL_BEGIN
 
 @interface NSNumber (GSLAdditions)
 
-- (NSNumber *)gsl_initWithCGFloat:(CGFloat)value;
+- (NSNumber *)gsl_initWithCGFloat:(CGFloat)value NS_RETURNS_RETAINED;
 + (NSNumber *)gsl_numberWithCGFloat:(CGFloat)value;
 
 @property (readonly) CGFloat gsl_CGFloatValue;

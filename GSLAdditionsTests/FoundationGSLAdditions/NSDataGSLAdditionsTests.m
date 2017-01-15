@@ -3,7 +3,6 @@
 //  GSLAdditions
 //
 
-@import Foundation;
 @import XCTest;
 
 #import "NSDataGSLAdditions.h"
