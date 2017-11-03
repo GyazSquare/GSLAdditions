@@ -1,13 +1,14 @@
 Pod::Spec.new do |s|
   s.name         = 'GSLAdditions'
-  s.version      = '1.1.0'
+  s.version      = '2.0.0'
   s.author       = 'GyazSquare'
   s.license      = { :type => 'MIT' }
   s.homepage     = 'https://github.com/GyazSquare/GSLAdditions'
-  s.source       = { :git => 'https://github.com/GyazSquare/GSLAdditions.git', :tag => 'v1.1.0' }
+  s.source       = { :git => 'https://github.com/GyazSquare/GSLAdditions.git', :tag => 'v2.0.0' }
   s.summary      = 'Objective-C GSL categories for iOS, OS X, watchOS and tvOS.'
   s.ios.deployment_target = '8.0'
   s.requires_arc = true
+  s.module_name  = 'GSL'
 
   s.subspec 'FoundationGSLAdditions' do |sp|
     sp.osx.deployment_target = '10.6'
