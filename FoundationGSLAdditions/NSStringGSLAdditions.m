@@ -14,11 +14,11 @@
 }
 
 - (BOOL)gsl_hasPrefixCaseInsensitive:(nullable NSString *)aString {
-    return (aString && ([self rangeOfString:aString options:(NSCaseInsensitiveSearch | NSAnchoredSearch)].length > 0));
+    return (aString && ([self rangeOfString:aString options:(NSCaseInsensitiveSearch | NSAnchoredSearch)].location != NSNotFound));
 }
 
 - (BOOL)gsl_hasSuffixCaseInsensitive:(nullable NSString *)aString {
-    return (aString && ([self rangeOfString:aString options:(NSCaseInsensitiveSearch | NSBackwardsSearch | NSAnchoredSearch)].length > 0));
+    return (aString && ([self rangeOfString:aString options:(NSCaseInsensitiveSearch | NSBackwardsSearch | NSAnchoredSearch)].location != NSNotFound));
 }
 
 - (BOOL)gsl_containsString:(NSString *)str {
