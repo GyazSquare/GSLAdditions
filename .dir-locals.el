@@ -17,7 +17,7 @@
      (eval . (set (make-local-variable 'uikit-gsl-addiotions-root)
                   (expand-file-name "UIKitGSLAdditions" project-dir)))))
  (objc-mode
-  . ((flycheck-objc-clang-xcrun-sdk . "iphoneos11.1")
+  . ((flycheck-objc-clang-xcrun-sdk . "iphoneos")
      (flycheck-objc-clang-arc . t)
      (flycheck-objc-clang-modules . t)
      (flycheck-objc-clang-archs . ("arm64" "armv7"))
