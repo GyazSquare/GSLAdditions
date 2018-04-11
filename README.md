@@ -6,8 +6,8 @@ GSLAdditions is Objective-C GSL categories for iOS, OS X, watchOS and tvOS.
 
 ## Requirements
 
-* Xcode 9.2 or later
-* Base SDK: iOS 11.2 / OS X 10.13.2 / watchOS 4.2 / tvOS 11.2 or later
+* Xcode 9.3 or later
+* Base SDK: iOS 11.3 / OS X 10.13.4 / watchOS 4.3 / tvOS 11.3 or later
 * Deployment Target: iOS 8.0 / OS X 10.6 / watchOS 2.0 / tvOS 9.0 or later
 
 ## Installation
