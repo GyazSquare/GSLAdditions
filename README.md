@@ -2,12 +2,12 @@
 
 [![Build Status](https://travis-ci.org/GyazSquare/GSLAdditions.svg?branch=master)](https://travis-ci.org/GyazSquare/GSLAdditions)
 
-GSLAdditions is Objective-C GSL categories for iOS, OS X, watchOS and tvOS.
+GSLAdditions is Objective-C GSL categories for iOS, macOS, watchOS and tvOS.
 
 ## Requirements
 
 * Xcode 9.3 or later
-* Base SDK: iOS 11.3 / OS X 10.13.4 / watchOS 4.3 / tvOS 11.3 or later
+* Base SDK: iOS 11.3 / macOS 10.13.4 / watchOS 4.3 / tvOS 11.3 or later
 * Deployment Target: iOS 8.0 / OS X 10.6 / watchOS 2.0 / tvOS 9.0 or later
 
 ## Installation
