@@ -227,7 +227,7 @@
 		D7BF2AAB1A753EA8000BC9D5 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
-				LastUpgradeCheck = 0930;
+				LastUpgradeCheck = 1120;
 				TargetAttributes = {
 					D7BF2AB21A753EA8000BC9D5 = {
 						CreatedOnToolsVersion = 6.1.1;
@@ -239,7 +239,7 @@
 			};
 			buildConfigurationList = D7BF2AAE1A753EA8000BC9D5 /* Build configuration list for PBXProject "GSLAdditions" */;
 			compatibilityVersion = "Xcode 3.2";
-			developmentRegion = English;
+			developmentRegion = en;
 			hasScannedForEncodings = 0;
 			knownRegions = (
 				en,
