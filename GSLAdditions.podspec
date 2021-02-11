@@ -9,15 +9,15 @@ Pod::Spec.new do |s|
   s.requires_arc = true
 
   s.subspec 'FoundationGSLAdditions' do |sp|
-    sp.ios.deployment_target = '8.0'
-    sp.osx.deployment_target = '10.6'
+    sp.ios.deployment_target = '9.0'
+    sp.osx.deployment_target = '10.9'
     sp.tvos.deployment_target = '9.0'
     sp.watchos.deployment_target = '2.0'
     sp.source_files = 'FoundationGSLAdditions/*.{h,m}'
   end
 
   s.subspec 'UIKitGSLAdditions' do |sp|
-    sp.ios.deployment_target = '8.0'
+    sp.ios.deployment_target = '9.0'
     sp.tvos.deployment_target = '9.0'
     sp.source_files = 'UIKitGSLAdditions/*.{h,m}'
   end
